@@ -2,5 +2,6 @@
 
 cd /var/www/app/
 
-git pull origin master --ff-only
+git pull origin master
+console.log("master updated")
 
