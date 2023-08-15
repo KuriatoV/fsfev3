@@ -39,7 +39,8 @@ wss.on('connection', (ws)=>{
     console.log('A client has disconnected');
   });
 
-  ws.on('error',()=>{
+  ws.on('error',(err)=>{
+    console.log('ws err',err)
     //
   });
 });
