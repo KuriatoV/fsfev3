@@ -31,7 +31,7 @@ wss.on('connection', (ws)=>{
   wss.broadcast(`Current visitors: ${numConnectedClients}`);
 
   if (ws.readyState === ws.OPEN) {
-    ws.send('websocket is open and ready!');
+    ws.send('websocket is open and ready v2!');
   }
 
   ws.on('close', ()=> {
