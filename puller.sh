@@ -3,5 +3,6 @@
 cd /var/www/app/
 
 git pull origin master
-console.log("master updated")
+console.log("master updated");
+npm i
 
